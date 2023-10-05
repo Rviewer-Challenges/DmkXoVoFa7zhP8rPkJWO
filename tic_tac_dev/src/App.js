@@ -145,7 +145,7 @@ function App() {
         <>
           <button onClick={handleReturnToLevelSelection}>Volver a seleccionar el nivel</button>
 
-          <h1>{didPlayerWin() ? "¡Felicidades! 🎉" : "Tic Tac Dev"}</h1>
+          <h1>{didPlayerWin() ? "¡Felicidades 🎉 has ganado!" : "Tic Tac Dev"}</h1>
           <h3>Movimientos: {moves}</h3>
           <h3>Pares restantes: {remainingPairs}</h3>
 
